@@ -1,0 +1,27 @@
+/* app css stylesheet */
+
+
+body{
+	background: url('images/weather2.jpg');
+	background-size: cover;
+}
+#mainHeading{
+	font-size: 30px;
+	color: #3ba541;
+	font-family: serif;
+}
+
+#dateTime{
+	font-size: 20px;
+}
+.dataTable{
+	font-size: 20px;
+}
+
+#forecastSize{
+	font-size: 20px;
+}
+
+.forecastTable{
+	font-size: 17px;
+}
