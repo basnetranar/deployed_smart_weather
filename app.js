@@ -51,7 +51,8 @@ angular.module('myWeather',[])
 	$scope.getIpLocation = function(){
 	
 		if(!$scope.location){
-			$http.get("https://ip-api.com/json").then(function successCallBack(response){
+			$http.get("http://ip-api.com/json").then(function successCallBack(response){
+				// console.log('ip access denied');
 				$scope.location = response.data.city;
 				$scope.getWeather();
 			});
